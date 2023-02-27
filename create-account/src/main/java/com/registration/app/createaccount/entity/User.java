@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table (name="USER_TBL")
+@Table (name="USERS_TBL")
 public class User {
 
 	@Id
@@ -25,4 +25,5 @@ public class User {
 	private long number;
 	private String email;
 	private String password;
+	private String cpassword;
 }
