@@ -21,6 +21,6 @@ public class UserServiceImpl implements UserService{
 	public boolean checkUserExists(String email) {
 		User userfound;
 		 userfound=repository.findByEmail(email);
-		return userfound!=null;
+		return userfound==null;
 	}
 }
