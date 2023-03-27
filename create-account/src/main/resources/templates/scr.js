@@ -15,6 +15,7 @@ function checkpassword(){
 }
 
 //checking 1
+//learning
 // document.querySelector('btn btn-success').onclick=function(){
 
 //     var password=document.querySelector('.passwordh').value,
